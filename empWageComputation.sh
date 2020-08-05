@@ -1,6 +1,6 @@
 #!/bin/bash -x
 echo "Welcome to Employee Wage Computation"
-#
+#------------------------------------------------------
 Attendence=$(( $RANDOM % 2 + 1 ))
 if [ $Attendence -eq 1 ]
 then
@@ -34,7 +34,7 @@ else
 	parttimeemploywage=0
 	echo "Wage of $name who does part time is : "$parttimeemploywage
 fi
-#--------------------------------------------------------
+#---------------------------------------------------------
 while true
 do
 echo "1.Wages of the employ who does full time"
