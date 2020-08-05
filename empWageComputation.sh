@@ -78,5 +78,3 @@ exit
 echo invalid choice 
 ;;
 
-esac
-done
